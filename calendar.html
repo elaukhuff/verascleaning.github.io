@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="cleaning.css">
+<title>Vera's Cleaning</title>
+<meta charset="utf-8">
+<body>
+<div id="wrapper">
+<label for="keyword">Search:</label>
+<input type="search" name="keyword" id="keyword">
+<header>
+  <h1>Vera's Cleaning</h1>
+</header>
+<nav>
+	<a href="index.html">Home</a> &nbsp; 
+   <a href="about.html">About Us</a> &nbsp; 
+   <a href="services.html">Services</a>  &nbsp; 
+   <a href="calendar.html">Calendar</a> &nbsp;
+    <a href="testimonials.html">Testimonials</a> &nbsp;
+    <a href="contact.html">Contact Us</a>  
+</nav>
+<div id="calendarpage">
+</div>
+<main>
+<h2>Today is
+<script>
+var myDate = new Date()
+var month = myDate.getMonth() + 1
+var day = myDate.getDate()
+var year = myDate.getFullYear()
+document.write(month + "/" + day + "/" + year)
+</script>
+</h2>
+<p>No events scheduled for today!</p>
+<h3>Dates to Note: </h3>
+<p style="line-height: 2;"> Unfortunately, Vera's Cleaning is closed until further notice due to COVID-19. We apologize for any inconvenience this may cause and thank you for your support and understanding during this difficult time. We hoep you and your families are staying safe and healthy and hope to see you soon! </p> 
+<p style="line-height: 2;"> <hr> For more information on COVID-19, please visit the CDC website <a href="https://www.cdc.gov/coronavirus/2019-nCoV/index.html">here.</a> 
+</main>
+<footer>
+Copyright &copy; 2020 Vera's Cleaning<br>
+</footer>
+</body>
+</html>
